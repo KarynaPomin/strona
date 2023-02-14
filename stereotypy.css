@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.titl img{
+    width: 30px; 
+    transition: width 2s, height 4s;
+}
+
+.titl img:hover{
+    width: 50px;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    font-family: monospace;
+    width: 80px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+  
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.titl{
+    position: sticky;
+    top: 0;
+    background-color: #18191c;
+    color: aliceblue;
+    padding: 15px;
+ }
+  
+.titl h1{
+    margin-left: 10%;
+    margin-right: 20px;
+    text-align: right;
+    padding: 5px;
+    border-right: solid 10px rgb(255, 0, 174);
+}
+  
+body{
+    background: rgb(211, 204, 209);
+    font-family: monospace;
+}
+
+details{
+    text-align: center;
+    font-size: 10px;
+    color: aliceblue;
+    background: rgb(123, 121, 121);
+    border: 2px solid black;
+    padding: 5px;
+    margin: 4px;
+}
+
+h3{
+    color: #18191c;
+    font-size: 15px;
+    margin: 5px;
+    text-align: justify;
+}
+
+summary{
+    background: rgba(0, 0, 0, 0.76);
+    padding: 5px;
+}
+
+
+.nav_1{
+    margin: 30px;
+}
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 25px;
+    justify-content: space-around;
+}
+
+.photos img{
+    position: flex;
+    width: 300px;
+    margin-bottom: -15px;
+    padding: 15px;
+    border-top: 2px dotted;
+} 
+
