@@ -43,6 +43,10 @@ body {
   font-size: 22px;
 }
 
+.nav-logo{
+  padding: 5px;
+}
+
 .navbar{
   height: 70px;
   width: 100%;
