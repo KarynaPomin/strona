@@ -11,14 +11,18 @@ body {
   
 .nav_2 h2{
   font-size: 15px;
+  text-align: justify;
 }
 
 .nav_2{
   margin-top: 0%;
-  margin: 100px;
+  margin: 30px;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .opis{
@@ -30,7 +34,7 @@ body {
   margin-top: 80px;
   text-align: center;
   width: 600;
-  font-size: 30px;
+  font-size: 27px;
 }
 
 #logo{
